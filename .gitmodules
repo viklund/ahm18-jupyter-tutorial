@@ -1,0 +1,3 @@
+[submodule "ahm18-nlp-slack"]
+	path = ahm18-nlp-slack
+	url = https://github.com/coderefinery/ahm18-nlp-slack.git
