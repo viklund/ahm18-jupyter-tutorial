@@ -5,6 +5,7 @@ LABEL author="Johan Viklund" \
 
 RUN conda install -y numpy scipy matplotlib jupyter pandas seaborn scikit-learn nltk
 RUN pip install textmining lda emoji
+RUN apt-get update && apt-get install vim
 
 EXPOSE 8888
 
